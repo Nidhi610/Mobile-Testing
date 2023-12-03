@@ -20,8 +20,8 @@ public class BaseTest {
     public void setUp() throws MalformedURLException {
         DesiredCapabilities dc = new DesiredCapabilities();
         dc.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-        dc.setCapability(MobileCapabilityType.PLATFORM_VERSION, "7.1.1");
-        dc.setCapability(MobileCapabilityType.DEVICE_NAME, "ZTE");
+        dc.setCapability(MobileCapabilityType.PLATFORM_VERSION, "14");
+        dc.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel 7 pro");
         dc.setCapability("appPackage", "com.solodroid.solomerce");
         dc.setCapability("appActivity", ".activities.ActivitySplash");
 
